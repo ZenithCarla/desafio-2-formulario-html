@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+
+
+        <fieldset>
+
+
+            <legend>Cadastro</legend>
+
+
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="Email">Email:</label><br>
+            <input type="text" id="email" name="email" required>
+            <br><br>
+
+            <label for="Age">Idade</label><br>
+            <input type="number" id="Age" min="12" max="90" name="Age" required>
+            <br><br>
+
+            <label for="date">Data de nascimento</label><br>
+            <input type="date" name="Data" id="date" required>
+            <br><br>
+
+
+            <label>Onde você possui conta:</label><br>
+
+
+            <input type="checkbox" name="Facebook" id="facebook">
+            <label>Facebook</label>
+
+            <input type="checkbox" name="Instagram" id="instagram">
+            <label>Instagram</label>
+
+            <input type="checkbox" name="youtube" id="youtube">
+            <label>Youtube</label>
+            <br><br>
+
+            <label for="Sex">Sexo:</label><br>
+            <input type="radio" name="Sex" value="Masculine"> Masculino
+            <input type="radio" name="Sex" value="Feminine"> Feminino
+            <br><br>
+
+            <label for="Color">Cor dos olhos</label>
+            <input type="color" id="color-eyes" required>
+            <br><br>
+
+            <label for="Biography">Biografia</label><br>
+            <textarea id="Biography" name="Biografia" rows="2" cols="15" required></textarea>
+            <br><br>
+
+            <label for="Foto">Foto do perfil</label><br>
+            <input type="file" accept="imgage/*" required>
+            <br><br>
+
+            <label for="telephone">Telefone</label><br>
+            <input type="tel" name="telephone" id="telephone" required>
+            <br><br>
+
+            <label for="Facebook">Link do perfil do Facebook</label><br>
+            <input type="url" name="Facebook" id="Facebook" required>
+            <br><br>
+
+            <label for="password">Senha</label><br>
+            <input type="password" name="password" id="password" minlength="6" maxlength="8" size="8" required>
+            <br><br>
+
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar dados">
+        </fieldset>
+</body>
+
+</html>
